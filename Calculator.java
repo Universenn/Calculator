@@ -9,13 +9,26 @@ package java10M.week1.day5;
 //        실행은 CalculatorMain에서 합니다.
 
 public class Calculator {
+        int a;
+        int b;
 
-        int a = 3;
-        int b = 4;
+        public Calculator(int a, int b) {
+                this.a = a;
+                this.b = b;
+        }
 
-        public int plus(int a, int b){return a+b;};
-        public int minus(int a, int b){return a-b;};
-        public int multiple(int a, int b){return a*b;};
-        public int divide(int a, int b){return a/b;};
+        public int plus() {
+                return a + b;
+        }
+        public int minus( ) {
+                return a - b;
+        }
+        public int multiple() {
+                return a * b;
+        }
+        public double divide() {
+                return a / (double)b;
+        }
+
 
 }
