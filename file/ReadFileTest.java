@@ -18,12 +18,12 @@ public class ReadFileTest {
         for (File file : files) {
             System.out.println(file);
         }
-
-//        ReadFile readFile = new ReadFile("a_file.txt");
-//        try {
-//            System.out.println(readFile.readAByte());
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        /*.\.idea
+          .\.idea
+          .\a_file.txt
+          .\Java.iml
+          .\out
+           .\src
+*/
     }
 }
