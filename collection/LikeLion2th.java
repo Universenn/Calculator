@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LikeLion2th {
-    public List<String> students = new ArrayList<>();
+//    public List<String> students = new ArrayList<>(); // 초기화를 반드시 해줘야함
+    private List<String> students;
 
     // 멋사자 2기 학생의 이름이 들어있는 List 를 result하는 method
     public LikeLion2th() {
+        this.students = new ArrayList<>(); // 초기화
         this.students.add("권하준");
         this.students.add("조성윤");
         this.students.add("안예은");
